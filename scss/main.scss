@@ -1,4 +1,4 @@
-@import 'config';
+@import "config";
 
 //reset
 * {
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -21,7 +21,9 @@ ul {
   list-style: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
 }
 
@@ -29,3 +31,7 @@ img {
   width: 100%;
 }
 
+#logo {
+  width: 80px;
+  height: 70px;
+}
