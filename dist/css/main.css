@@ -34,7 +34,9 @@ imput[class^="btn-"]:hover {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; }
+
+.text-center {
   text-align: center; }
 
 * {
@@ -63,12 +65,15 @@ img {
 
 #logo {
   width: 80px;
-  height: 70px; }
+  height: 70px;
+  padding-left: 75px;
+  padding-bottom: 20px; }
 
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  background: #bdbcc5; }
   #main-nav ul {
     display: flex; }
   #main-nav li {
@@ -86,9 +91,9 @@ img {
       border-color: #d1dbd2; }
 
 #header-home {
-  background: #d2d1db;
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
-  color: #fff; }
+  color: #333; }
   #header-home .header-content {
     text-align: center;
     padding-top: 20%; }

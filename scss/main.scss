@@ -36,6 +36,8 @@ img {
 #logo {
   width: 80px;
   height: 70px;
+  padding-left: 75px;
+  padding-bottom: 20px;
 }
 
 //main nav
@@ -43,6 +45,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+  background: $bg-color;
 
   ul {
     display: flex;
@@ -73,9 +76,9 @@ img {
 //header
 #header {
   &-home {
-    background: $bg-color;
+    background: $bg-img no-repeat center right/cover;
     height: 100vh;
-    color: #fff;
+    color: $dark-color;
 
     //header content
     .header-content {
