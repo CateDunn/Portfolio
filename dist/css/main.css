@@ -133,3 +133,22 @@ img {
   #home-a .specials .fas {
     color: #d1dbd2;
     padding-bottom: 0.4rem; }
+
+#main-footer {
+  background: #bdbcc5;
+  color: white;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+  #main-footer .social .fab {
+    margin: 1rem;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center; }
+    #main-footer .social .fab:hover {
+      color: #d1dbd2;
+      cursor: pointer; }
