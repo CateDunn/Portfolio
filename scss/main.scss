@@ -36,16 +36,16 @@ img {
 #logo {
   width: 120px;
   height: 100px;
-  padding-left: 75px;
-  padding-bottom: 20px;
 }
 
 //main nav
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
+  align-items: center;
+  padding: 2rem 0;
   background: $bg-color;
+  height: 50px;
 
   ul {
     display: flex;
