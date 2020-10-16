@@ -32,13 +32,6 @@ a[class^="btn-"]:hover,
 imput[class^="btn-"]:hover {
   background: #d1dbd2; }
 
-.lead {
-  font-size: 1.3rem;
-  margin-bottom: 2rem; }
-
-.text-center {
-  text-align: center; }
-
 .py-1 {
   padding: 1rem 0; }
 
@@ -133,6 +126,19 @@ img {
   #home-a .specials .fas {
     color: #d1dbd2;
     padding-bottom: 0.4rem; }
+
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio";
+  grid-gap: 1.2rem; }
+
+#about-a .bio-image {
+  grid-area: bioimage; }
+
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #d1dbd2;
+  padding: 0.8rem; }
 
 #main-footer {
   background: #bdbcc5;
