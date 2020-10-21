@@ -140,6 +140,10 @@ img {
   border-left: 3px solid #d1dbd2;
   padding: 0.8rem; }
 
+#about-a .section-title,
+#about-a .lead {
+  text-align: center; }
+
 #main-footer {
   background: #bdbcc5;
   color: white;
