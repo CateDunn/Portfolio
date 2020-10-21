@@ -76,3 +76,11 @@ imput[class^="btn-"]:hover {
     padding: 4rem 0;
   }
 }
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
