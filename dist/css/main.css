@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background: #d1dbd2; }
+  background: #bdbcc5; }
 
 .btn-light {
   color: #333;
@@ -23,14 +23,10 @@
   color: #f4f4f4;
   background: #333; }
 
-.btn-light {
-  color: #333;
-  background: #f4f4f4; }
-
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 imput[class^="btn-"]:hover {
-  background: #d1dbd2; }
+  background: #bdbcc5; }
 
 .py-1 {
   padding: 1rem 0; }
@@ -58,7 +54,7 @@ imput[class^="btn-"]:hover {
 
 .bottom-line {
   height: 2px;
-  width: 3rem;
+  width: 10rem;
   background: #d1dbd2;
   display: block;
   margin: 0 auto 1rem auto; }
@@ -70,7 +66,7 @@ imput[class^="btn-"]:hover {
 
 .item {
   position: relative;
-  background: #d1dbd2;
+  background: #bdbcc5;
   overflow: hidden; }
   .item::after {
     content: "";
@@ -183,7 +179,7 @@ img {
     padding-bottom: 0.4rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #a8a8ab; }
+      border-color: #d1dbd2; }
     #main-nav a.current {
       border-color: #d1dbd2; }
 
@@ -204,7 +200,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #d1dbd2;
+    color: #bdbcc5;
     padding-bottom: 0.4rem; }
 
 #about-a .about-info {
@@ -217,7 +213,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #d1dbd2;
+  border-left: 3px solid #bdbcc5;
   padding: 0.8rem; }
 
 #about-a .section-title,

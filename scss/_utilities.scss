@@ -31,20 +31,12 @@
     background: $dark-color;
   }
 }
-.btn-light {
-  @extend %btn-shared;
-  color: $dark-color;
-  background: $light-color;
-}
 
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 imput[class^="btn-"]:hover {
   background: $main-color;
 }
-
-//backgrounds
-//
 
 //padding
 .py {
@@ -61,6 +53,7 @@ imput[class^="btn-"]:hover {
     padding: 4rem 0;
   }
 }
+
 //margin
 .my {
   &-1 {
@@ -79,8 +72,8 @@ imput[class^="btn-"]:hover {
 
 .bottom-line {
   height: 2px;
-  width: 3rem;
-  background: $main-color;
+  width: 10rem;
+  background: $secondary-color;
   display: block;
   margin: 0 auto 1rem auto;
 }
