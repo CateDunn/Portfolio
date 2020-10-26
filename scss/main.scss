@@ -90,6 +90,12 @@ img {
         font-size: 4rem;
         line-height: 1.2;
       }
+
+      .bio-paragraph {
+        padding-right: 20%;
+        padding-left: 25%;
+        padding-bottom: 1rem;
+      }
     }
   }
 }
@@ -130,8 +136,7 @@ img {
       padding: 0.8rem;
     }
 
-    .section-title,
-    .lead {
+    .section-title {
       text-align: center;
     }
   }
