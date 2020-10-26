@@ -147,6 +147,16 @@ img {
   }
 }
 
+//Work Section
+
+#work {
+  &-a {
+    .section-title {
+      text-align: center;
+    }
+  }
+}
+
 //Contact Page
 #contact {
   &-a {
