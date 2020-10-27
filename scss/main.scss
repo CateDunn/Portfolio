@@ -64,13 +64,13 @@ img {
     padding-bottom: 0.4rem;
     transition: border-color 0.5s;
 
-    &:hover {
-      border-color: $secondary-color;
-    }
-
     &.current {
       border-color: $secondary-color;
     }
+  }
+
+  #nav:hover {
+    border-color: $secondary-color;
   }
 }
 
