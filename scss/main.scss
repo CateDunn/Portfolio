@@ -45,8 +45,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
-  background: $main-color;
-  height: 50px;
+  height: 10px;
 
   ul {
     display: flex;
@@ -79,7 +78,7 @@ img {
   &-home {
     background: $bg-img no-repeat center right/cover;
     height: 100vh;
-    color: $dark-color;
+    color: $light-color;
 
     //header content
     .header-content {
@@ -100,7 +99,7 @@ img {
   }
 }
 
-//Home Section
+//Education & Work
 #home {
   &-a {
     .specials {
