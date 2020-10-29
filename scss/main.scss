@@ -102,6 +102,10 @@ img {
 //Education & Work
 #home {
   &-a {
+    background: $light-color;
+    p {
+      font-size: 0.9rem;
+    }
     .specials {
       margin-top: 3rem;
       display: grid;
