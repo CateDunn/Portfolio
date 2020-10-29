@@ -166,6 +166,9 @@ img {
 //Contact Page
 #contact {
   &-a {
+    .section-title {
+      text-align: center;
+    }
     .text-fields {
       display: grid;
       grid-template-areas:
@@ -234,6 +237,7 @@ img {
     width: 20px;
     line-height: 20px;
     text-align: center;
+    color: #fff;
 
     &:hover {
       color: $secondary-color;

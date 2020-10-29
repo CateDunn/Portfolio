@@ -236,6 +236,9 @@ img {
 #work-a .section-title {
   text-align: center; }
 
+#contact-a .section-title {
+  text-align: center; }
+
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";
@@ -280,7 +283,8 @@ img {
     height: 20px;
     width: 20px;
     line-height: 20px;
-    text-align: center; }
+    text-align: center;
+    color: #fff; }
     #main-footer .social .fab:hover {
       color: #d1dbd2;
       cursor: pointer; }
