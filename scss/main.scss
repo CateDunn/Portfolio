@@ -211,9 +211,12 @@ img {
     }
 
     button[type="submit"] {
-      width: 30%;
+      width: 100%;
     }
     .button-div {
+      text-align: center;
+    }
+    .btn {
       text-align: center;
     }
   }

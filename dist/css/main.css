@@ -264,9 +264,12 @@ img {
     padding: 0.5rem 1rem; }
 
 #contact-a button[type="submit"] {
-  width: 30%; }
+  width: 100%; }
 
 #contact-a .button-div {
+  text-align: center; }
+
+#contact-a .btn {
   text-align: center; }
 
 #contact-b .contact-info {
