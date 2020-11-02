@@ -37,40 +37,9 @@ img {
 #logo {
   width: 120px;
   height: 100px;
-}
-
-//nav bar
-#main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 0;
-  height: 10px;
-
-  ul {
-    display: flex;
-  }
-
-  li {
-    padding: 1rem 1.5rem;
-  }
-
-  a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    border-bottom: 3px transparent solid;
-    padding-bottom: 0.4rem;
-    transition: border-color 0.5s;
-
-    &.current {
-      border-color: $secondary-color;
-    }
-  }
-
-  #nav:hover {
-    border-color: $secondary-color;
-  }
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 //header
@@ -79,6 +48,45 @@ img {
     background: $bg-img no-repeat center right/cover;
     height: 100vh;
     color: $light-color;
+
+    //navbar
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // background: #333;
+      position: fixed;
+      top: 0px;
+      transition: 0.5s ease-in;
+      z-index: 1;
+
+      ul {
+        display: flex;
+        position: fixed;
+        right: 0px;
+      }
+
+      li {
+        padding: 1rem 1.5rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.4rem;
+        transition: border-color 0.5s;
+
+        &.current {
+          border-color: $secondary-color;
+        }
+      }
+
+      #nav:hover {
+        border-color: $secondary-color;
+      }
+    }
 
     //header content
     .header-content {
@@ -211,7 +219,7 @@ img {
     }
 
     button[type="submit"] {
-      width: 100%;
+      width: 0%;
     }
     .button-div {
       text-align: center;

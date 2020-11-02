@@ -159,34 +159,40 @@ img {
 
 #logo {
   width: 120px;
-  height: 100px; }
-
-#main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 0;
-  height: 10px; }
-  #main-nav ul {
-    display: flex; }
-  #main-nav li {
-    padding: 1rem 1.5rem; }
-  #main-nav a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    border-bottom: 3px transparent solid;
-    padding-bottom: 0.4rem;
-    transition: border-color 0.5s; }
-    #main-nav a.current {
-      border-color: #d1dbd2; }
-  #main-nav #nav:hover {
-    border-color: #d1dbd2; }
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0px; }
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #f4f4f4; }
+  #header-home .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    transition: 0.5s ease-in;
+    z-index: 1; }
+    #header-home .navbar ul {
+      display: flex;
+      position: fixed;
+      right: 0px; }
+    #header-home .navbar li {
+      padding: 1rem 1.5rem; }
+    #header-home .navbar a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      padding-bottom: 0.4rem;
+      transition: border-color 0.5s; }
+      #header-home .navbar a.current {
+        border-color: #d1dbd2; }
+    #header-home .navbar #nav:hover {
+      border-color: #d1dbd2; }
   #header-home .header-content {
     text-align: center;
     padding-top: 20%; }
@@ -264,7 +270,7 @@ img {
     padding: 0.5rem 1rem; }
 
 #contact-a button[type="submit"] {
-  width: 100%; }
+  width: 0%; }
 
 #contact-a .button-div {
   text-align: center; }
