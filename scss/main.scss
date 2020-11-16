@@ -60,6 +60,10 @@ img {
       transition: 0.5s ease-in;
       z-index: 1;
 
+      .top {
+        background: transparent;
+      }
+
       ul {
         display: flex;
         position: fixed;
@@ -166,6 +170,7 @@ img {
 
     .section-title {
       text-align: center;
+      margin-top: 2rem;
     }
   }
 }
@@ -219,7 +224,7 @@ img {
     }
 
     button[type="submit"] {
-      width: 0%;
+      width: 100%;
     }
     .button-div {
       text-align: center;

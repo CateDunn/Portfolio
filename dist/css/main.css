@@ -176,6 +176,8 @@ img {
     top: 0px;
     transition: 0.5s ease-in;
     z-index: 1; }
+    #header-home .navbar .top {
+      background: transparent; }
     #header-home .navbar ul {
       display: flex;
       position: fixed;
@@ -242,7 +244,8 @@ img {
   font-size: 20px; }
 
 #about-a .section-title {
-  text-align: center; }
+  text-align: center;
+  margin-top: 2rem; }
 
 #work-a .section-title {
   text-align: center; }
@@ -270,7 +273,7 @@ img {
     padding: 0.5rem 1rem; }
 
 #contact-a button[type="submit"] {
-  width: 0%; }
+  width: 100%; }
 
 #contact-a .button-div {
   text-align: center; }
