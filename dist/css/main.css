@@ -168,32 +168,33 @@ img {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #f4f4f4; }
-  #header-home .navbar {
+  #header-home #navbar {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: fixed;
     top: 0px;
     transition: 0.5s ease-in;
     z-index: 1; }
-    #header-home .navbar .top {
+    #header-home #navbar .top {
       background: transparent; }
-    #header-home .navbar ul {
+    #header-home #navbar ul {
       display: flex;
       position: fixed;
       right: 0px; }
-    #header-home .navbar li {
+    #header-home #navbar li {
       padding: 1rem 1.5rem; }
-    #header-home .navbar a {
+    #header-home #navbar a {
       text-decoration: none;
       color: #fff;
       text-transform: uppercase;
       border-bottom: 3px transparent solid;
       padding-bottom: 0.4rem;
       transition: border-color 0.5s; }
-      #header-home .navbar a.current {
+      #header-home #navbar a.current {
         border-color: #d1dbd2; }
-    #header-home .navbar #nav:hover {
+    #header-home #navbar #nav:hover {
       border-color: #d1dbd2; }
   #header-home .header-content {
     text-align: center;
@@ -312,3 +313,7 @@ img {
     height: 30rem; }
     #header-home .header-content {
       padding-top: 5rem; } }
+
+@media (max-width: 500px) {
+  #logo {
+    display: none; } }
