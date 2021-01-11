@@ -164,6 +164,9 @@ img {
   top: 0px;
   left: 0px; }
 
+.black {
+  color: black; }
+
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
@@ -187,7 +190,7 @@ img {
       padding: 1rem 1.5rem; }
     #header-home #navbar a {
       text-decoration: none;
-      color: #fff;
+      color: white;
       text-transform: uppercase;
       border-bottom: 3px transparent solid;
       padding-bottom: 0.4rem;
